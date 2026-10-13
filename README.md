@@ -2,6 +2,18 @@
 
 QR로 방문해 이름·MBTI·나이를 입력하고, 나와 매칭되는 배우의 결과를 확인하고 저장하는 한국어·중국어 모바일 웹사이트입니다.
 
+공개 웹사이트: **https://theman-alive-choice.vercel.app/**
+
+- 한국어: https://theman-alive-choice.vercel.app/
+- 중국어: https://theman-alive-choice.vercel.app/?lang=zh
+- PR: https://github.com/jaero0725/subpro_02/pull/1
+- QR 이미지: [한국어 PNG](docs/qr/theman-ko.png), [중국어 PNG](docs/qr/theman-zh.png)
+- 인쇄용 벡터 QR: [한국어 SVG](docs/qr/theman-ko.svg), [중국어 SVG](docs/qr/theman-zh.svg)
+
+QR은 위 공개 주소를 가리키며 디코더로 대상 URL을 검증했습니다. 별도 구매 도메인은 연결하지 않았습니다. 추후 다른 도메인을 사용하면 QR을 새로 생성하거나 위 주소에서 새 도메인으로 리디렉션을 설정합니다.
+
+공개 HTTPS 주소에서 Chromium·모바일 WebKit의 한국어/중국어 입력→결과와 원본 PNG 다운로드를 확인했습니다.
+
 ## 실행
 
 Node.js 20 이상을 사용합니다. 사이트 실행·빌드에는 패키지 설치나 API 키가 필요하지 않습니다.
